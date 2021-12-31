@@ -23,6 +23,7 @@ body {
   background-size: contain;
   background-position: top right;
   background-color: var(--Pale-blue);
+  height: 100vh;
 }
 .attribution {
   font-size: 11px;
@@ -32,14 +33,14 @@ body {
   color: hsl(228, 45%, 44%);
 }
 main {
-  width: 400px;
+  width: 30%;
   text-align: center;
   margin: 5% auto 10px;
   background-color: #fff;
   border-radius: 10px;
 }
 img {
-  max-width: 100%;
+  width: 100%;
 }
 h1 {
   font-size: 20px;
@@ -54,8 +55,8 @@ ul {
   justify-content: space-between;
   align-items: center;
   background-color: var(--pale-blue);
-  padding: 15px;
-  margin: 15px 0;
+  padding: 20px;
+  margin: 20px 0;
   border-radius: 5px;
   font-size: 13px;
 }
@@ -64,7 +65,7 @@ ul li {
   align-items: center;
 }
 a {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--Bright-blue);
   font-weight: 500;
   transition: 0.3s ease-in;
@@ -83,7 +84,7 @@ main img {
   padding: 20px;
 }
 .container h1 {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   font-weight: 800;
   color: var(--Dark-blue);
 }
@@ -99,7 +100,7 @@ button {
   border: none;
   background-color: var(--Bright-blue);
   border-radius: 10px;
-  margin: 10px 0 20px 0;
+  margin: 20px 0 20px 0;
   color: #fff;
   font-family: "Red Hat Display", sans-serif;
   cursor: pointer;
