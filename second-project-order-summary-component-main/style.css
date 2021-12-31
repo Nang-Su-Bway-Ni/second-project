@@ -7,18 +7,22 @@
   --Desaturated-blue: hsl(224, 23%, 55%);
   --Dark-blue: hsl(223, 47%, 23%);
 }
-*{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
- font-family: 'Red Hat Display', sans-serif;
- background-image: url(./images/pattern-background-desktop.svg);
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center;
- height: 100vh;
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: 
+  /* linear-gradient(
+    rgba(225, 255, 250, 0.801),
+    rgba(225, 255, 240, 0.287)
+  ), */ url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  background-color: var(--Pale-blue);
 }
 .attribution {
   font-size: 11px;
@@ -27,90 +31,89 @@ body{
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-main{
- width: 300px;
- text-align: center;
- margin:10% auto 10px;
- background-color:#fff ;
- border-radius: 10px;
+main {
+  width: 400px;
+  text-align: center;
+  margin: 5% auto 10px;
+  background-color: #fff;
+  border-radius: 10px;
 }
-img{
- max-width: 100%;
+img {
+  max-width: 100%;
 }
-h1{
- font-size: 20px;
+h1 {
+  font-size: 20px;
 }
-p{
- font-size: 13px;
- opacity: .6;
+p {
+  font-size: 16px;
+  opacity: 0.6;
 }
-ul{
- list-style: none;
- display: flex;
- justify-content: space-between;
- align-items: center;
- background-color: var(--pale-blue);
- padding: 15px;
- margin: 15px 0;
- border-radius: 5px;
- font-size: 13px;
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--pale-blue);
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+  font-size: 13px;
 }
-ul li{
- display: flex;
- align-items: center;
+ul li {
+  display: flex;
+  align-items: center;
 }
-a{
- font-size: 13px;
- color:var(--Bright-blue);
- font-weight: 500;
- transition: .3s ease-in;
+a {
+  font-size: 13px;
+  color: var(--Bright-blue);
+  font-weight: 500;
+  transition: 0.3s ease-in;
 }
-a:hover{
- text-decoration: none;
- color: var(--Desaturated-blue);
+a:hover {
+  text-decoration: none;
+  color: var(--Desaturated-blue);
 }
-ul li img{
- width:35px;
+ul li img {
+  width: 35px;
 }
-main img{
- border-radius: 10px 10px 0 0;
+main img {
+  border-radius: 10px 10px 0 0;
 }
-.container{
- padding: 20px;
+.container {
+  padding: 20px;
 }
-.container h1{
- padding-bottom: 10px;
- font-weight: 800;
- color:var(--Dark-blue);
+.container h1 {
+  padding-bottom: 10px;
+  font-weight: 800;
+  color: var(--Dark-blue);
 }
-.plan{
- margin-left: 10px;
+.plan {
+  margin-left: 10px;
 }
-.plan span{
- color: var(--Dark-blue);
- font-weight: 800;
+.plan span {
+  color: var(--Dark-blue);
+  font-weight: 800;
 }
-button{
- padding: 10px 40px;
- border: none;
- background-color: var(--Bright-blue);
- border-radius: 10px;
- margin: 10px 0 20px 0;
- color: #fff;
- font-family: 'Red Hat Display', sans-serif;
- cursor: pointer;
- transition: .3s ease-in-out;
+button {
+  padding: 10px 80px;
+  border: none;
+  background-color: var(--Bright-blue);
+  border-radius: 10px;
+  margin: 10px 0 20px 0;
+  color: #fff;
+  font-family: "Red Hat Display", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
-button:hover{
- background-color: var(--Desaturated-blue);
+button:hover {
+  background-color: var(--Desaturated-blue);
 }
-.cancel{
- cursor: pointer;
- transition: .3s ease-in-out;
- font-weight: 700;
+.cancel {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  font-weight: 700;
 }
-.cancel:hover{
- color: var(--Dark-blue);
- opacity: 1;
+.cancel:hover {
+  color: var(--Dark-blue);
+  opacity: 1;
 }
-
